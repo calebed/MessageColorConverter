@@ -1,6 +1,5 @@
 package me.doodle.messagecolorconverter;
 
-import com.sun.xml.internal.xsom.impl.scd.Iterators;
 import org.bukkit.ChatColor;
 
 import java.util.List;
@@ -56,6 +55,8 @@ public class MessageHandler {
                 return ChatColor.STRIKETHROUGH;
             case "o":
                 return ChatColor.ITALIC;
+            case "n":
+                return ChatColor.UNDERLINE;
             default:
                 break;
         }

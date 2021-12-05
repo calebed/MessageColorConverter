@@ -2,3 +2,7 @@ name: MessageColorConverter
 description: Changes messages to include chat colors
 version: 0.1
 main: me.doodle.messagecolorconverter.Main
+commands:
+  format:
+    usage: /format
+    description: Set your chat format.
